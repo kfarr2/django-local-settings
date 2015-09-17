@@ -102,5 +102,11 @@ Once the local settings are defined, *any missing settings will be prompted for 
 
 ## Advanced usage
 
-TODO: Discuss using multiple settings files, extending a settings file from another file, how to
-specify a settings file other than the default of `local.cfg`, editing settings files directly, &c.
+- To use more than one settings file (e.g. local.cfg AND local.base.cfg), add the following line to local.cfg:
+
+        extends = "local.base.cfg"
+
+    local.cfg will now look for settings in local.base.cfg as well.
+
+~~TODO: Discuss using multiple settings files, extending a settings file from another file, how to~~
+~~specify a settings file other than the default of `local.cfg`, editing settings files directly, &c.~~
